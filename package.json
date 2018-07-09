@@ -1,0 +1,11 @@
+{
+  "name": "MonthlyReports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "email": "browser-sync start --server --files \"src/**/*\" --startPath \"src/email.html\" ",
+    "attachment": "browser-sync start --server --files \"src/**/*\" --startPath \"src/attachment.html\" ",
+    "index": "browser-sync start --server --files \"src/**/*\" --startPath \"src/index.html\" "
+  }
+}
